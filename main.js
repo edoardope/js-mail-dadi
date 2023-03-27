@@ -18,9 +18,10 @@ let soldatino1 = false
 
 let soldatino2 = false
 
+//attivazione bottone log in
+
 const login = document.getElementById("login");
 
-//attivazione bottone log in
 login.addEventListener("click", function(event) {
   const useremail = document.getElementById('useremail').value;
   const userpass = document.getElementById('userpass').value;
@@ -51,6 +52,7 @@ login.addEventListener("click", function(event) {
   if( `${soldatino1}` == "true" && `${soldatino2}` == "true") {
 
     loginform.classList.add("d-none");
+    dadic.classList.remove("d-none");
 
   } else {
 
@@ -59,3 +61,33 @@ login.addEventListener("click", function(event) {
   }
 
 });
+
+//attivazione bottone roll
+
+const roll = document.getElementById("roll");
+
+roll.addEventListener("click", function(event) {
+
+   const usernumber = Math.floor(Math.random() * 7);
+   const computernumber = Math.floor(Math.random() * 7);
+
+   console.log(` roll utente: ${usernumber}`);
+   console.log(` roll pc: ${computernumber}`);
+
+   document.getElementById("userresult").innerHTML =` ${usernumber} `;
+   document.getElementById("pcresult").innerHTML =` ${computernumber} `;
+   
+   if (`${usernumber}` > `${computernumber}`){
+
+    winner.classList.remove("d-none");
+    loser.classList.add("d-none");
+
+   } else {
+
+    winner.classList.add("d-none");
+    loser.classList.remove("d-none");
+
+   }
+
+})
+

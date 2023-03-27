@@ -35,8 +35,50 @@
         <!-- fine login form -->
 
         <!-- gioco dadi -->
-        <div class="container-sm">
+        <div id="dadic" class="container-sm pt-5 d-none">
+            <h1 class="text-center">SPIN YOUR DADI:</h1>
+            <div class="row justify-content-evenly mt-5">
+                <div class="dado-sei">
+                    <div class="meta">
+                        <span class="point"></span>
+                        <span class="point"></span>
+                        <span class="point"></span>
 
+                    </div>
+                    <div class="meta">
+                        <span class="point"></span>
+                        <span class="point"></span>
+                        <span class="point"></span>
+                    </div>
+                </div>
+                <div class="dado-sei">
+                    <div class="meta">
+                        <span class="point"></span>
+                        <span class="point"></span>
+                        <span class="point"></span>
+
+                    </div>
+                    <div class="meta">
+                        <span class="point"></span>
+                        <span class="point"></span>
+                        <span class="point"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <button type="submit" class="mt-4 btn btn-primary" id="roll">roll</button>
+                <span>your roll: <span id="userresult"></span></span>
+                <span>pc roll: <span id="pcresult"></span></span>
+            </div>
+     
+        </div>
+        <div class="container-sm mt-5">
+            <div id="winner" class="alert alert-success text-center d-none" role="alert">
+                you winn
+            </div>
+            <div id="loser" class="alert alert-danger text-center d-none" role="alert">
+                you lose
+            </div>
         </div>
     </main>
    
