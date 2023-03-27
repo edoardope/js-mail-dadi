@@ -178,16 +178,28 @@ roll.addEventListener("click", function(event) {
     dadoseipc.classList.remove("d-none");
    
    }
+
+
+
+   //end game result notification
    
    if (`${usernumber}` > `${computernumber}`){
 
     winner.classList.remove("d-none");
     loser.classList.add("d-none");
+    tie.classList.add("d-none");
+
+   } else if (`${usernumber}` == `${computernumber}`) {
+
+    winner.classList.add("d-none");
+    loser.classList.add("d-none");
+    tie.classList.remove("d-none");
 
    } else {
 
     winner.classList.add("d-none");
     loser.classList.remove("d-none");
+    tie.classList.add("d-none");
 
    }
 
