@@ -77,6 +77,108 @@ roll.addEventListener("click", function(event) {
    document.getElementById("userresult").innerHTML =` ${usernumber} `;
    document.getElementById("pcresult").innerHTML =` ${computernumber} `;
    
+
+   // dado user
+   if (`${usernumber}` == 1) {
+    dadounouser.classList.remove("d-none");
+    dadodueuser.classList.add("d-none");
+    dadotreuser.classList.add("d-none");
+    dadoquattrouser.classList.add("d-none");
+    dadocinqueuser.classList.add("d-none");
+    dadoseiuser.classList.add("d-none");
+   
+   } else if (`${usernumber}` == 2) {
+    dadounouser.classList.add("d-none");
+    dadodueuser.classList.remove("d-none");
+    dadotreuser.classList.add("d-none");
+    dadoquattrouser.classList.add("d-none");
+    dadocinqueuser.classList.add("d-none");
+    dadoseiuser.classList.add("d-none");
+
+   } else if (`${usernumber}` == 3) {
+    dadounouser.classList.add("d-none");
+    dadodueuser.classList.add("d-none");
+    dadotreuser.classList.remove("d-none");
+    dadoquattrouser.classList.add("d-none");
+    dadocinqueuser.classList.add("d-none");
+    dadoseiuser.classList.add("d-none");
+
+   } else if (`${usernumber}` == 4) {
+    dadounouser.classList.add("d-none");
+    dadodueuser.classList.add("d-none");
+    dadotreuser.classList.add("d-none");
+    dadoquattrouser.classList.remove("d-none");
+    dadocinqueuser.classList.add("d-none");
+    dadoseiuser.classList.add("d-none");
+
+   } else if (`${usernumber}` == 5) {
+    dadounouser.classList.add("d-none");
+    dadodueuser.classList.add("d-none");
+    dadotreuser.classList.add("d-none");
+    dadoquattrouser.classList.add("d-none");
+    dadocinqueuser.classList.remove("d-none");
+    dadoseiuser.classList.add("d-none");
+
+   } else if (`${usernumber}` == 6) {
+    dadounouser.classList.add("d-none");
+    dadodueuser.classList.add("d-none");
+    dadotreuser.classList.add("d-none");
+    dadoquattrouser.classList.add("d-none");
+    dadocinqueuser.classList.add("d-none");
+    dadoseiuser.classList.remove("d-none");
+   } 
+
+   //dado pc
+   if (`${computernumber}` == 1) {
+    dadounopc.classList.remove("d-none");
+    dadoduepc.classList.add("d-none");
+    dadotrepc.classList.add("d-none");
+    dadoquattropc.classList.add("d-none");
+    dadocinquepc.classList.add("d-none");
+    dadoseipc.classList.add("d-none");
+   
+   } else if (`${computernumber}` == 2) {
+    dadounopc.classList.add("d-none");
+    dadoduepc.classList.remove("d-none");
+    dadotrepc.classList.add("d-none");
+    dadoquattropc.classList.add("d-none");
+    dadocinquepc.classList.add("d-none");
+    dadoseipc.classList.add("d-none");
+   
+   } else if (`${computernumber}` == 3) {
+    dadounopc.classList.add("d-none");
+    dadoduepc.classList.add("d-none");
+    dadotrepc.classList.remove("d-none");
+    dadoquattropc.classList.add("d-none");
+    dadocinquepc.classList.add("d-none");
+    dadoseipc.classList.add("d-none");
+   
+   } else if (`${computernumber}` == 4) {
+    dadounopc.classList.add("d-none");
+    dadoduepc.classList.add("d-none");
+    dadotrepc.classList.add("d-none");
+    dadoquattropc.classList.remove("d-none");
+    dadocinquepc.classList.add("d-none");
+    dadoseipc.classList.add("d-none");
+   
+   } else if (`${computernumber}` == 5) {
+    dadounopc.classList.add("d-none");
+    dadoduepc.classList.add("d-none");
+    dadotrepc.classList.add("d-none");
+    dadoquattropc.classList.add("d-none");
+    dadocinquepc.classList.remove("d-none");
+    dadoseipc.classList.add("d-none");
+   
+   } else if (`${computernumber}` == 6) {
+    dadounopc.classList.add("d-none");
+    dadoduepc.classList.add("d-none");
+    dadotrepc.classList.add("d-none");
+    dadoquattropc.classList.add("d-none");
+    dadocinquepc.classList.add("d-none");
+    dadoseipc.classList.remove("d-none");
+   
+   }
+   
    if (`${usernumber}` > `${computernumber}`){
 
     winner.classList.remove("d-none");

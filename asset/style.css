@@ -12,11 +12,53 @@ main{
     padding-top: 3px;
 }
 
+.dado-uno{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 40px;
+    padding-top: 35px;
+}
+
+.dado-due{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.dado-tre{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.dado-quattro{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.dado-cinque{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: white;
+}
+
 #roll{
     width: 50px;
 }
 
-.meta{
+.meta-sei{
     width: 47%;
     display: inline-block;
     text-align: center;
@@ -32,3 +74,164 @@ main{
    margin-top: 5px;
 }
 
+
+.point-due{
+
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 54px;
+ }
+
+ .point-due-v{
+
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-top: 5px;
+    display: block;
+    margin-top: 40px;
+ }
+
+ .point-tre{
+
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-top: 5px;
+    margin-top: 8px;
+ }
+
+ .point-tre-v{
+
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-top: 5px;
+    display: block;
+    margin-left: 27px;
+ }
+
+ .point-tre-z{
+
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-top: 5px;
+    display: block;
+    margin-left: 55px;
+    margin-top: 10px;
+ }
+
+ .meta-quattro{
+    width: 47%;
+    display: inline-block;
+    text-align: center;
+ }
+ 
+ .point-quattro{
+
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-top: 5px;
+ }
+
+ .point-quattro-v{
+
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-top: 40px;
+ }
+
+ .point-quattro-z{
+
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-top: 5px;
+ }
+
+ .point-quattro-y{
+
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-top: 40px;
+ }
+
+ .meta-cinque{
+    width: 29%;
+    display: inline-block;
+    text-align: center;
+ }
+
+ .point-cinque{
+
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-top: 5px;
+ }
+
+ .point-cinque-v{
+
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-top: 40px;
+ }
+
+ .point-cinque-z{
+
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-bottom: 33px;
+ }
+
+ .point-cinque-y{
+
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-top: 5px;
+ }
+
+ .point-cinque-x{
+
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-top: 40px;
+ }
